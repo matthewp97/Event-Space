@@ -5,7 +5,7 @@ const Concerts = () => {
         <div>
             <h3>Concerts</h3>
             <div>
-                <img src='./concert-pic.jpg' />
+                <img height="500px" width="700px" src='./concert-pic.jpg' />
             </div>
         </div>
     )

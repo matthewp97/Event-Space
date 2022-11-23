@@ -1,20 +1,22 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
+import './App.css';
 
-const navbar= () =>{
+const Navbar= () =>{
     return (
         <div>
+            <h1>Event Space</h1>
             <li>
-                <Link to="/Concerts">Concerts</Link>
+                <Link to="/concerts">Concerts</Link>
             </li>
             <li>
-                <Link to="/Shows">Shows</Link>
+                <Link to="/shows">Shows</Link>
             </li>
             <li>
-                <Link to="/Sports">Sports</Link>
+                <Link to="/sports">Sports</Link>
             </li>
         </div>
-    )
-}
+    );
+};
 
-export default navbar
+export default Navbar;
