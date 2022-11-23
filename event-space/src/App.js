@@ -28,6 +28,7 @@ function App() {
                 </Routes>           
             </BrowserRouter>
         </div>
+        
     // <div className = "App">
     //     {/* <div>
     //         <Router><Navbar /></Router>
@@ -38,18 +39,7 @@ function App() {
     //     <div className="Div-2">
     //         <h2>Your key to all the best entertainment in Las Vegas, NV!</h2>
     //     </div>
-    //     <div className = "Login">
-    //         <button onClick={() => setLoggedIn(!loggedIn)}>
-    //             {loggedIn ? "Log out" : "Log in"}
-    //         </button>
-    //             {loggedIn ? (
-    //                 <h2>Welcome, person's name!</h2>
-    //             ) : (
-    //                 <div>
-    //                     <h2>Please log in</h2>
-    //                 </div>
-    //             )}
-    //     </div>
+        
 
     //     {/* Possibly add forgot password forgot username button */}
 

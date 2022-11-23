@@ -1,12 +1,25 @@
 import React from 'react';
 import {  Link } from "react-router-dom";
 import './App.css';
+import { useState } from 'react';
 
 const Navbar= () =>{
+    const [loggedIn, setLoggedIn] = useState(false);
+
     return (
         <div>
             <div className='navHeader'>
                 <h1>Event Space</h1>
+            </div>
+            <div className = "Login">
+                {loggedIn ? (
+                    <h2>Welcome, person's name!</h2>
+                ) : (
+                    <h2>Please log in</h2>      
+                )}
+                <button onClick={() => setLoggedIn(!loggedIn)}>
+                    {loggedIn ? "Log out" : "Log in"}
+                </button>
             </div>
             <div className='pageLinks'>
                 <li>
