@@ -5,7 +5,9 @@ import './App.css';
 const Navbar= () =>{
     return (
         <div>
-            <h1>Event Space</h1>
+            <div className='navHeader'>
+                <h1>Event Space</h1>
+            </div>
             <div className='pageLinks'>
                 <li>
                     <Link to="/concerts">Concerts</Link>

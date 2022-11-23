@@ -3,9 +3,9 @@ import React from 'react';
 const Shows = () => {
     return (
         <div>
-            <h3>Shows</h3>
+            <h3>Experience the best entertainment the city has to offer!</h3>
             <div>
-                <img src='./concert-pic.jpg' />
+                <img height="500px" width="700px" src='./show-pic.jpg' />
             </div>
         </div>
     );
