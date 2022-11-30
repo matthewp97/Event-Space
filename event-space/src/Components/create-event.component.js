@@ -1,32 +1,32 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import StudentForm from "./StudentForm";
+import EventForm from "./EventForm";
   
-// CreateStudent Component
+// CreateEvent Component
 const CreateEvent = () => {
   const [formValues, setFormValues] = 
     useState({ name: '', email: '', rollno: '' })
   // onSubmit handler
-  const onSubmit = studentObject => {
+  const onSubmit = eventObject => {
     axios.post(
-'http://localhost:4000/students/create-student', 
-    studentObject)
+'http://localhost:4000/events/create-event', 
+    eventObject)
       .then(res => {
         if (res.status === 200)
-          alert('Student successfully created')
+          alert('Event successfully created')
         else
           Promise.reject()
       })
       .catch(err => alert('Something went wrong'))
   }
     
-  // Return student form
+  // Return Event form
   return(
-    <StudentForm initialValues={formValues} 
+    <EventForm initialValues={formValues} 
       onSubmit={onSubmit} 
       enableReinitialize>
-      Create Student
-    </StudentForm>
+      Create Event
+    </EventForm>
   )
 }
   

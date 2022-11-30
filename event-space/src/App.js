@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import './App.css';
 import './index.css'
 import Main from './Main';
@@ -7,7 +8,8 @@ import Sports from './Sports';
 import Navbar from './Navbar.js'
 import EventForm from './Components/EventForm';
 import CreateEvent from './Components/create-event.component';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import EventList from './Components/event-list.component';
+import { BrowserRouter, Routes, Route, Link, Switch } from "react-router-dom";
 import { useState } from 'react';
 
 function App() {
