@@ -24,8 +24,7 @@
   display: flex;
   justify-content: space-evenly;
   font-size: 50px;
-
-}
+};
 
 .navHeader {
   margin-bottom: 1%;
