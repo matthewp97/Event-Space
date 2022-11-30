@@ -1,5 +1,6 @@
 import './App.css';
 import './index.css'
+import Main from './Main';
 import Concerts from './Concerts.js'
 import Shows from './Shows';
 import Sports from './Sports';
@@ -16,6 +17,9 @@ function App() {
             <BrowserRouter>
                 <Navbar />
                 <Routes className='Routes'>
+                    <Route 
+                    element = {<Main />}
+                    path = "/" />
                     <Route 
                     element = {<Concerts />}
                     path = "/concerts" />
