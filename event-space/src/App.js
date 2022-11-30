@@ -5,6 +5,8 @@ import Concerts from './Concerts.js'
 import Shows from './Shows';
 import Sports from './Sports';
 import Navbar from './Navbar.js'
+import EventForm from './Components/EventForm';
+import CreateEvent from './Components/create-event.component';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from 'react';
 
