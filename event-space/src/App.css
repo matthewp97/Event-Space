@@ -28,12 +28,25 @@
 
 .navHeader {
   margin-bottom: 1%;
-  margin-left: 15px;
 }
 
 .Login {
   display: block;
   margin-bottom: 3%;
+}
+
+.navHeader a:hover {
+  color: black;
+}
+
+.navHeader a:link {
+  text-decoration: none;
+}
+
+.about {
+  margin-left: 10%;
+  margin-right: 10%;
+  align-items: center;
 }
 
 li {

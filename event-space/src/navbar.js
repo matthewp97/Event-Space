@@ -9,7 +9,7 @@ const Navbar= () =>{
     return (
         <div>
             <div className='navHeader'>
-                <h1>Event Space</h1>
+                <h1><Link to="/">Event Space</Link></h1>
             </div>
             <div className = "Login">
                 {loggedIn ? (
