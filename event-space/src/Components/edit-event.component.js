@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import EventForm from "./EventForm";
   
-// EditEvent Component
 const EditEvent = (props) => {
   const [formValues, setFormValues] = useState({
     name: "",
@@ -10,7 +9,6 @@ const EditEvent = (props) => {
     rollno: "",
   });
     
-  //onSubmit handler
   const onSubmit = (eventObject) => {
     axios
       .put(
@@ -27,7 +25,6 @@ const EditEvent = (props) => {
       .catch((err) => alert("Something went wrong"));
   };
   
-  // Load data from server and reinitialize event form
   useEffect(() => {
     axios
       .get(
@@ -53,5 +50,4 @@ const EditEvent = (props) => {
   );
 };
   
-// Export EditEvent Component
 export default EditEvent;
