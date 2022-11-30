@@ -13,7 +13,7 @@ const Navbar= () =>{
             </div>
             <div className = "Login">
                 {loggedIn ? (
-                    <h2>Welcome, person's name!</h2>
+                    <h2>Welcome, placeholder!</h2>
                 ) : (
                     <h2>Please log in</h2>      
                 )}
