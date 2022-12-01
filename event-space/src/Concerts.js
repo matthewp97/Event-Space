@@ -2,7 +2,7 @@ import React from 'react';
 import CreateEvent from './Components/create-event.component';
 import EditEvent from './Components/edit-event.component';
 import EventList from './Components/event-list.component';
-// import EventForm from './Components/EventForm';
+import EventForm from './Components/EventForm';
 import { Nav, Container, Row, Col } from 'react-bootstrap';
 import { Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";

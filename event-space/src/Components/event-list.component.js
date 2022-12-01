@@ -36,6 +36,7 @@ const EventList = () => {
         </thead>
         <tbody>{DataTable()}</tbody>
       </Table>
+      <a>Test</a>
     </div>
   );
 };
